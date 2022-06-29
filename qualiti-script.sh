@@ -10,8 +10,8 @@
   API_URL='https://3000-qualitiai-qualitiapi-pzncy7t3jqu.ws-us47.gitpod.io/public/api'
   INTEGRATION_JWT_TOKEN='50c9963a17273bf1ca7c821eb9a3c354ae2709984fd100591c774ed29090c5c34ba7bcaec29decea462ea17239eef3e8c2718cfbf2e2b7cd38a7837c162457f4a498756dee9f9718df772a22d4dcb074d1ef27f9ff24e396954663e35a158aef5da4fc02a30ac229084080499ce833134412e3d3717c7c1e9770fea99d3b88d7d63580550d4c340205260f3bf50e52bd690da1cebdabeea57fc873093b8aa0f3dd9eed1cb0f4c60f3887bbb9d13c93d7221c34a92dc4a1c1f2501c75c1c7ec35401181ab42c66dcd3476eb75fc6fa0def188c41b48855f22fe21ba6df31d649643c81bc1cabdfa0b96236d54760c6a5d5838782ecfa4c1e84c03ab9f79fb75eb25cd3dc40d62909398e0416c7b0553d4|12d0905e178470846291e8c6dff9d0a4|27421f1f8a30e7f0f520f92b2020543b'
 
-  apt-get update -y
-  apt-get install -y jq
+  sudo apt-get update -y
+  sudo apt-get install -y jq
 
   #Trigger test run
   TEST_RUN_ID="$( \
