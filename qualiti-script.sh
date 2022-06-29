@@ -1,3 +1,3 @@
 #!/bin/bash
 
- run: "echo Hello, World!"
+ command: "echo Hello, World!"
